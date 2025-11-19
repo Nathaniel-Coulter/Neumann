@@ -1,0 +1,152 @@
+Toggles via CLI flags (no YAML needed):
+
+--models logistic mlp lgbm (or --models all)
+
+--calibration none|platt|isotonic
+
+--kfold 1|5|... (used for logistic; MLP/LGBM use a simple train/val split—keeps runtime sane)
+
+--horizons 12 24 36
+
+--train_months 60 (rolling window) and --test_step 1
+
+--topn 10 (for long/short baskets)
+
+--no-download (if you’ve already cached monthly prices as monthly_prices.parquet)
+
+
+
+Discriminative or Generative ? 
+Supervised, Unsupervised or Reinforcement Learning? 
+LGBM = Light Geometric Brownian Motion
+
+
+
+
+0) One-time setup
+# (only if needed)
+pip install -U pandas numpy scikit-learn yfinance statsmodels torch lightgbm shap
+
+1) Baseline (Logistic, 12m, no K-fold, no calibration)
+
+Purpose: smoke test end-to-end, build price cache, validate labels & outputs.
+
+python .\project\ml_refine.py --models logistic --horizons 12
+
+
+Outputs to check:
+
+project\data\ml_refine\oos_summary.csv
+
+project\data\ml_refine\predictions_rolling.csv
+
+2) Stabilize with K-fold (still Logistic, 12m)
+
+Purpose: variance reduction & a CV sanity number in cv_auc_mean.
+
+python .\project\ml_refine.py --models logistic --horizons 12 --kfold 5
+
+3) Add calibration (compare Platt vs Isotonic)
+
+Purpose: better-calibrated probabilities (your P(up) is more “truthy”).
+
+# Platt
+python .\project\ml_refine.py --models logistic --horizons 12 --kfold 5 --calibration platt
+
+# Isotonic
+python .\project\ml_refine.py --models logistic --horizons 12 --kfold 5 --calibration isotonic
+
+4) Extend horizons (12/24/36), keep your best Logistic setup
+
+Purpose: test robustness across holding periods.
+
+python .\project\ml_refine.py --models logistic --horizons 12 24 36 --kfold 5 --calibration isotonic
+
+5) Add the MLP (CUDA auto-used if available)
+
+Purpose: non-linear baseline vs Logistic; try with/without calibration.
+
+# Uncalibrated
+python .\project\ml_refine.py --models mlp --horizons 12 24 36
+
+# With isotonic (often best for NN)
+python .\project\ml_refine.py --models mlp --horizons 12 24 36 --calibration isotonic
+
+
+Tip: you’ll see [INFO] Torch device: cuda if it picked up your GPU.
+
+6) Add LightGBM (tree model) + importance/SHAP dumps
+
+Purpose: strong tabular baseline + interpretability.
+
+python .\project\ml_refine.py --models lgbm --horizons 12 24 36 --calibration platt
+
+
+What to check (under project\data\ml_refine\):
+
+feature_importance_<date>_<model>_h<H>.csv (per horizon)
+
+shap_summary_<date>_<model>_h<H>.png (if SHAP was able to run; may take a bit on first use)
+
+7) Head-to-head: run them all together
+
+Purpose: apples-to-apples comparison inside the same rolling windows.
+
+python .\project\ml_refine.py --models all --horizons 12 24 36 --kfold 5 --calibration isotonic
+
+8) Long/short sizing sweeps
+
+Purpose: see how sensitive hit-rates are to basket size (e.g., 5 vs 10 vs 20).
+
+# Top 5 / Bottom 5
+python .\project\ml_refine.py --models all --horizons 12 --kfold 5 --calibration isotonic --topn 5
+
+# Top 20 / Bottom 20
+python .\project\ml_refine.py --models all --horizons 12 --kfold 5 --calibration isotonic --topn 20
+
+9) Walk-forward geometry (train length & step)
+
+Purpose: stress the rolling regime (e.g., longer training memory, coarser stepping).
+
+# 84m train, 1m step
+python .\project\ml_refine.py --models logistic --horizons 12 --kfold 5 --calibration isotonic --train_months 84 --test_step 1
+
+# 60m train, test every quarter
+python .\project\ml_refine.py --models logistic --horizons 12 --kfold 5 --calibration isotonic --train_months 60 --test_step 3
+
+10) “Production” pass (my suggested default)
+
+Purpose: the one you’ll cite in the write-up.
+
+python .\project\ml_refine.py --models all --horizons 12 24 36 --kfold 5 --calibration isotonic --train_months 60 --test_step 1 --topn 10
+
+Pro tips
+
+After the first run builds monthly_prices.parquet, you can add --no-download to make later runs faster:
+
+python .\project\ml_refine.py --models logistic --horizons 12 --kfold 5 --calibration isotonic --no-download
+
+
+Compare models/horizons by grouping in oos_summary.csv (AUC, long_hit, short_hit). Your negative basket (“short”) is already logged each month in predictions_rolling.csv via short_names.
+
+If you want an ultra-quick check on just 12m horizon with everything on:
+
+python .\project\ml_refine.py --models all --horizons 12 --kfold 5 --calibration isotonic
+
+
+If you want, I can also drop a tiny notebook/table script that ingests oos_summary.csv and prints a ranked scoreboard by (AUC, long_hit, short_hit) per horizon.
+
+
+
+
+
+
+
+
+
+
+# Logistic baseline + visuals every 3rd test month
+python .\project\ml_refine.py --models logistic --horizons 12 24 36 --kfold 5 --calibration platt --explain --imp-every 3
+
+# Try all models with SHAP/importance/calibration artifacts
+python .\project\ml_refine.py --models all --horizons 12 --kfold 5 --calibration isotonic --explain --imp-every 2
