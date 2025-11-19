@@ -1,0 +1,517 @@
+ticker,sector,Accruals_dolt,Accruals_est,Accruals
+A,Healthcare,0.0004999999999999,,0.0004999999999999
+AAPL,Technology,-0.0226999999999999,,-0.0226999999999999
+ABBV,Healthcare,-0.0385,,-0.0385
+ABNB,Consumer Cyclical,-0.00305,,-0.00305
+ABT,Healthcare,-0.029375,,-0.029375
+ACGL,Financial Services,-0.023,,-0.023
+ACN,Technology,-0.025175,,-0.025175
+ADBE,Technology,-0.025025,,-0.025025
+ADI,Technology,-0.027225,,-0.027225
+ADM,Consumer Defensive,-0.01615,,-0.01615
+ADP,Technology,-0.0355,,-0.0355
+ADSK,Technology,-0.0232749999999999,,-0.0232749999999999
+AEE,Utilities,-0.024975,,-0.024975
+AEP,Utilities,-0.0221999999999999,,-0.0221999999999999
+AES,Utilities,-0.02165,,-0.02165
+AFL,Financial Services,-0.008225,,-0.008225
+AIG,Financial Services,-0.014925,,-0.014925
+AIZ,Financial Services,-0.0088,,-0.0088
+AJG,Financial Services,-0.006725,,-0.006725
+AKAM,Technology,-0.0469749999999999,,-0.0469749999999999
+ALB,Basic Materials,-0.0252,,-0.0252
+ALGN,Healthcare,-0.018925,,-0.018925
+ALL,Financial Services,-0.006575,,-0.006575
+ALLE,Industrials,-0.014575,,-0.014575
+AMAT,Technology,0.0011749999999999,,0.0011749999999999
+AMCR,Consumer Cyclical,-0.010175,,-0.010175
+AMD,Technology,-0.017775,,-0.017775
+AME,Industrials,-0.01715,,-0.01715
+AMGN,Healthcare,-0.046025,,-0.046025
+AMP,Financial Services,0.002525,,0.002525
+AMT,Real Estate,-0.025525,,-0.025525
+AMZN,Consumer Cyclical,-0.060925,,-0.060925
+ANET,Technology,-0.015425,,-0.015425
+AON,Financial Services,-0.006875,,-0.006875
+AOS,Industrials,-0.015775,,-0.015775
+APA,Energy,-0.092125,,-0.092125
+APD,Basic Materials,-0.0237,,-0.0237
+APH,Technology,-0.011025,,-0.011025
+APO,Financial Services,-0.000325,,-0.000325
+APP,Communication Services,-0.05745,,-0.05745
+APTV,Consumer Cyclical,-0.0255499999999999,,-0.0255499999999999
+ARE,Real Estate,-0.0183499999999999,,-0.0183499999999999
+ARM,Technology,,,
+ASML,Technology,,,
+ATO,Utilities,-0.01995,,-0.01995
+AVB,Real Estate,-0.0319,,-0.0319
+AVGO,Technology,-0.032375,,-0.032375
+AVY,Consumer Cyclical,-0.0146249999999999,,-0.0146249999999999
+AWK,Utilities,-0.0264499999999999,,-0.0264499999999999
+AXON,Industrials,-0.01255,,-0.01255
+AXP,Financial Services,-0.0037749999999999,,-0.0037749999999999
+AZN,Healthcare,,,
+AZO,Consumer Cyclical,-0.0208749999999999,,-0.0208749999999999
+BA,Industrials,-0.0089,,-0.0089
+BAC,Financial Services,,,
+BALL,Consumer Cyclical,-0.0143499999999999,,-0.0143499999999999
+BAX,Healthcare,-0.047475,,-0.047475
+BBY,Consumer Cyclical,-0.0395,,-0.0395
+BDX,Healthcare,-0.029775,,-0.029775
+BEN,Financial Services,-0.01285,,-0.01285
+BF-B,Consumer Defensive,,,
+BG,Consumer Defensive,-0.00665,,-0.00665
+BIIB,Healthcare,-0.0223,,-0.0223
+BK,Financial Services,-0.0293,,-0.0293
+BKNG,Consumer Cyclical,-0.04095,,-0.04095
+BKR,Energy,-0.012375,,-0.012375
+BLDR,Industrials,-0.035475,,-0.035475
+BLK,Financial Services,-0.003625,,-0.003625
+BMY,Healthcare,-0.06425,,-0.06425
+BR,Technology,-0.034875,,-0.034875
+BRK-B,Financial Services,,,
+BRO,Financial Services,-0.0089,,-0.0089
+BSX,Healthcare,-0.026275,,-0.026275
+BX,Financial Services,-0.004025,,-0.004025
+BXP,Real Estate,-0.025475,,-0.025475
+C,Financial Services,-0.0591,,-0.0591
+CAG,Consumer Defensive,-0.00135,,-0.00135
+CAH,Healthcare,-0.010375,,-0.010375
+CARR,Industrials,-0.0225,,-0.0225
+CAT,Industrials,-0.014025,,-0.014025
+CB,Financial Services,-0.0141249999999999,,-0.0141249999999999
+CBOE,Financial Services,-0.0232,,-0.0232
+CBRE,Real Estate,-0.023725,,-0.023725
+CCEP,Consumer Defensive,,,
+CCI,Real Estate,-0.1089,,-0.1089
+CCL,Consumer Cyclical,-0.04505,,-0.04505
+CDNS,Technology,-0.018225,,-0.018225
+CDW,Technology,-0.01115,,-0.01115
+CEG,Utilities,-0.039925,,-0.039925
+CF,Basic Materials,-0.046225,,-0.046225
+CFG,Financial Services,-0.00145,,-0.00145
+CHD,Consumer Defensive,-0.0176,,-0.0176
+CHRW,Industrials,-0.012075,,-0.012075
+CHTR,Communication Services,-0.03725,,-0.03725
+CI,Healthcare,-0.00575,,-0.00575
+CINF,Financial Services,-0.0135,,-0.0135
+CL,Consumer Defensive,-0.016425,,-0.016425
+CLX,Consumer Defensive,-0.038925,,-0.038925
+CMCSA,Communication Services,-0.025675,,-0.025675
+CME,Financial Services,-0.0009,,-0.0009
+CMG,Consumer Cyclical,-0.02515,,-0.02515
+CMI,Industrials,-0.00295,,-0.00295
+CMS,Utilities,-0.0243,,-0.0243
+CNC,Healthcare,-0.006875,,-0.006875
+CNP,Utilities,-0.0233,,-0.0233
+COF,Financial Services,-0.006025,,-0.006025
+COIN,Financial Services,-0.062925,,-0.062925
+COO,Healthcare,-0.0156,,-0.0156
+COP,Energy,-0.0688,,-0.0688
+COR,Healthcare,-0.0066249999999999,,-0.0066249999999999
+COST,Consumer Defensive,-0.02515,,-0.02515
+CPAY,Technology,-0.031125,,-0.031125
+CPB,Consumer Defensive,-0.0067749999999999,,-0.0067749999999999
+CPRT,Industrials,-0.0192,,-0.0192
+CPT,Real Estate,-0.04085,,-0.04085
+CRL,Healthcare,-0.04385,,-0.04385
+CRM,Technology,-0.0378,,-0.0378
+CRWD,Technology,-0.05325,,-0.05325
+CSCO,Technology,-0.003875,,-0.003875
+CSGP,Real Estate,-0.02325,,-0.02325
+CSX,Industrials,-0.026925,,-0.026925
+CTAS,Industrials,-0.028325,,-0.028325
+CTRA,Energy,-0.0634,,-0.0634
+CTSH,Technology,-0.01015,,-0.01015
+CTVA,Basic Materials,-0.0209,,-0.0209
+CVS,Healthcare,-0.01085,,-0.01085
+CVX,Energy,-0.050525,,-0.050525
+D,Utilities,-0.0242,,-0.0242
+DAL,Industrials,-0.01165,,-0.01165
+DASH,Consumer Cyclical,-0.0366999999999999,,-0.0366999999999999
+DAY,Technology,-0.0165,,-0.0165
+DD,Basic Materials,-0.0295,,-0.0295
+DDOG,Technology,0.015325,,0.015325
+DE,Industrials,-0.0132749999999999,,-0.0132749999999999
+DECK,Consumer Cyclical,-0.0070999999999999,,-0.0070999999999999
+DELL,Technology,-0.008275,,-0.008275
+DG,Consumer Defensive,-0.025125,,-0.025125
+DGX,Healthcare,-0.022375,,-0.022375
+DHI,Consumer Cyclical,0.005025,,0.005025
+DHR,Healthcare,-0.01355,,-0.01355
+DIS,Communication Services,-0.02255,,-0.02255
+DLR,Real Estate,-0.030125,,-0.030125
+DLTR,Consumer Defensive,-0.0351999999999999,,-0.0351999999999999
+DOC,Real Estate,-0.024875,,-0.024875
+DOV,Industrials,-0.0223249999999999,,-0.0223249999999999
+DOW,Basic Materials,-0.02825,,-0.02825
+DPZ,Consumer Cyclical,-0.034675,,-0.034675
+DRI,Consumer Cyclical,-0.024325,,-0.024325
+DTE,Utilities,-0.02345,,-0.02345
+DUK,Utilities,-0.026875,,-0.026875
+DVA,Healthcare,-0.0242,,-0.0242
+DVN,Energy,-0.084525,,-0.084525
+DXCM,Healthcare,-0.0684,,-0.0684
+EA,Communication Services,-0.026125,,-0.026125
+EBAY,Consumer Cyclical,-0.0103,,-0.0103
+ECL,Basic Materials,-0.0384,,-0.0384
+ED,Utilities,-0.01695,,-0.01695
+EFX,Industrials,-0.03715,,-0.03715
+EG,Financial Services,-0.019725,,-0.019725
+EIX,Utilities,-0.0296,,-0.0296
+EL,Consumer Defensive,-0.033675,,-0.033675
+ELV,Healthcare,-0.002525,,-0.002525
+EME,Industrials,-0.0134,,-0.0134
+EMN,Basic Materials,-0.01065,,-0.01065
+EMR,Industrials,-0.023075,,-0.023075
+EOG,Energy,-0.069675,,-0.069675
+EPAM,Technology,-0.009225,,-0.009225
+EQIX,Real Estate,-0.0417499999999999,,-0.0417499999999999
+EQR,Real Estate,-0.029875,,-0.029875
+EQT,Energy,-0.03695,,-0.03695
+ERIE,Financial Services,-0.008025,,-0.008025
+ES,Utilities,-0.0219,,-0.0219
+ESS,Real Estate,-0.03635,,-0.03635
+ETN,Industrials,-0.018875,,-0.018875
+ETR,Utilities,-0.0257,,-0.0257
+EVRG,Utilities,-0.03345,,-0.03345
+EW,Healthcare,-0.015375,,-0.015375
+EXC,Utilities,-0.020925,,-0.020925
+EXE,Energy,-0.078975,,-0.078975
+EXPD,Industrials,-0.0037,,-0.0037
+EXPE,Consumer Cyclical,-0.0388,,-0.0388
+EXR,Real Estate,-0.02135,,-0.02135
+F,Consumer Cyclical,-0.01455,,-0.01455
+FANG,Energy,-0.03655,,-0.03655
+FAST,Industrials,-0.0092,,-0.0092
+FCX,Basic Materials,-0.02205,,-0.02205
+FDS,Financial Services,-0.023475,,-0.023475
+FDX,Industrials,-0.031475,,-0.031475
+FE,Utilities,-0.02815,,-0.02815
+FFIV,Technology,-0.0143,,-0.0143
+FI,Technology,-0.027025,,-0.027025
+FICO,Technology,-0.0052249999999999,,-0.0052249999999999
+FIS,Technology,-0.04385,,-0.04385
+FITB,Financial Services,0.00815,,0.00815
+FOX,Communication Services,-0.01715,,-0.01715
+FOXA,Communication Services,-0.01715,,-0.01715
+FRT,Real Estate,-0.024825,,-0.024825
+FSLR,Technology,-0.0035499999999999,,-0.0035499999999999
+FTNT,Technology,-0.038775,,-0.038775
+FTV,Technology,-0.0265749999999999,,-0.0265749999999999
+GD,Industrials,-0.011175,,-0.011175
+GDDY,Technology,-0.0206,,-0.0206
+GE,Industrials,-0.0037,,-0.0037
+GEHC,Healthcare,-0.0074749999999999,,-0.0074749999999999
+GEN,Technology,-0.0176,,-0.0176
+GEV,Industrials,-0.018625,,-0.018625
+GFS,Technology,,,
+GILD,Healthcare,-0.034575,,-0.034575
+GIS,Consumer Defensive,-0.0118,,-0.0118
+GL,Financial Services,-0.0112,,-0.0112
+GLW,Technology,-0.0257249999999999,,-0.0257249999999999
+GM,Consumer Cyclical,-0.0237,,-0.0237
+GNRC,Industrials,-0.0223,,-0.0223
+GOOG,Communication Services,-0.0226749999999999,,-0.0226749999999999
+GOOGL,Communication Services,-0.0226749999999999,,-0.0226749999999999
+GPC,Consumer Cyclical,-0.007775,,-0.007775
+GPN,Industrials,-0.0241249999999999,,-0.0241249999999999
+GRMN,Technology,-0.0017,,-0.0017
+GS,Financial Services,,,
+GWW,Industrials,-0.01145,,-0.01145
+HAL,Energy,-0.026775,,-0.026775
+HAS,Consumer Cyclical,-0.021475,,-0.021475
+HBAN,Financial Services,-0.0005749999999999,,-0.0005749999999999
+HCA,Healthcare,-0.0392,,-0.0392
+HD,Consumer Cyclical,-0.02,,-0.02
+HIG,Financial Services,-0.0097,,-0.0097
+HII,Industrials,-0.026025,,-0.026025
+HLT,Consumer Cyclical,-0.01815,,-0.01815
+HOLX,Healthcare,-0.024075,,-0.024075
+HON,Industrials,-0.02725,,-0.02725
+HOOD,Financial Services,-0.011275,,-0.011275
+HPE,Technology,-0.02575,,-0.02575
+HPQ,Technology,-0.010825,,-0.010825
+HRL,Consumer Defensive,-0.00805,,-0.00805
+HSIC,Healthcare,-0.02775,,-0.02775
+HST,Real Estate,-0.04805,,-0.04805
+HSY,Consumer Defensive,-0.01875,,-0.01875
+HUBB,Industrials,-0.009675,,-0.009675
+HUM,Healthcare,0.005675,,0.005675
+HWM,Industrials,-0.00965,,-0.00965
+IBKR,Financial Services,-0.042425,,-0.042425
+IBM,Technology,-0.024675,,-0.024675
+ICE,Financial Services,-0.00475,,-0.00475
+IDXX,Healthcare,-0.03965,,-0.03965
+IEX,Industrials,-0.014275,,-0.014275
+IFF,Basic Materials,-0.045375,,-0.045375
+INCY,Healthcare,-0.0026999999999999,,-0.0026999999999999
+INTC,Technology,-0.0366,,-0.0366
+INTU,Technology,-0.006725,,-0.006725
+INVH,Real Estate,-0.034825,,-0.034825
+IP,Consumer Cyclical,-0.039125,,-0.039125
+IPG,Communication Services,-0.0170999999999999,,-0.0170999999999999
+IQV,Healthcare,-0.0311,,-0.0311
+IR,Industrials,-0.01985,,-0.01985
+IRM,Real Estate,-0.03255,,-0.03255
+ISRG,Healthcare,-0.01235,,-0.01235
+IT,Technology,-0.023075,,-0.023075
+ITW,Industrials,-0.0139999999999999,,-0.0139999999999999
+IVZ,Financial Services,-0.07925,,-0.07925
+J,Industrials,-0.020975,,-0.020975
+JBHT,Industrials,-0.064175,,-0.064175
+JBL,Technology,-0.0358,,-0.0358
+JCI,Industrials,-0.0143499999999999,,-0.0143499999999999
+JKHY,Technology,-0.0476,,-0.0476
+JNJ,Healthcare,-0.019625,,-0.019625
+JPM,Financial Services,,,
+K,Consumer Defensive,-0.023725,,-0.023725
+KDP,Consumer Defensive,-0.0086999999999999,,-0.0086999999999999
+KEY,Financial Services,0.0016249999999999,,0.0016249999999999
+KEYS,Technology,-0.008475,,-0.008475
+KHC,Consumer Defensive,-0.005625,,-0.005625
+KIM,Real Estate,-0.0168,,-0.0168
+KKR,Financial Services,-0.011975,,-0.011975
+KLAC,Technology,-0.0195,,-0.0195
+KMB,Consumer Defensive,-0.0303249999999999,,-0.0303249999999999
+KMI,Energy,-0.020175,,-0.020175
+KO,Consumer Defensive,0.008725,,0.008725
+KR,Consumer Defensive,-0.05525,,-0.05525
+KVUE,Consumer Defensive,-0.0191,,-0.0191
+L,Financial Services,-0.007175,,-0.007175
+LDOS,Technology,-0.002975,,-0.002975
+LEN,Consumer Cyclical,-0.0348249999999999,,-0.0348249999999999
+LH,Healthcare,-0.006,,-0.006
+LHX,Industrials,-0.014325,,-0.014325
+LII,Industrials,-0.007175,,-0.007175
+LIN,Basic Materials,-0.03155,,-0.03155
+LKQ,Consumer Cyclical,-0.012425,,-0.012425
+LLY,Healthcare,0.02795,,0.02795
+LMT,Industrials,-0.02285,,-0.02285
+LNT,Utilities,-0.024425,,-0.024425
+LOW,Consumer Cyclical,-0.03185,,-0.03185
+LRCX,Technology,-0.023925,,-0.023925
+LULU,Consumer Cyclical,-0.034425,,-0.034425
+LUV,Industrials,-0.0360749999999999,,-0.0360749999999999
+LVS,Consumer Cyclical,-0.042775,,-0.042775
+LW,Consumer Defensive,-0.0345,,-0.0345
+LYB,Basic Materials,-0.0334249999999999,,-0.0334249999999999
+LYV,Communication Services,-0.036425,,-0.036425
+MA,Financial Services,-0.0518249999999999,,-0.0518249999999999
+MAA,Real Estate,-0.0327,,-0.0327
+MAR,Consumer Cyclical,-0.0065,,-0.0065
+MAS,Industrials,-0.0033749999999999,,-0.0033749999999999
+MCD,Consumer Cyclical,-0.025875,,-0.025875
+MCHP,Technology,-0.0451499999999999,,-0.0451499999999999
+MCK,Healthcare,-0.013575,,-0.013575
+MCO,Financial Services,-0.0149,,-0.0149
+MDLZ,Consumer Defensive,-0.0173749999999999,,-0.0173749999999999
+MDT,Healthcare,-0.017525,,-0.017525
+MELI,Consumer Cyclical,,,
+MET,Financial Services,-0.0073,,-0.0073
+META,Communication Services,-0.039075,,-0.039075
+MGM,Consumer Cyclical,-0.014775,,-0.014775
+MHK,Consumer Cyclical,-0.026225,,-0.026225
+MKC,Consumer Defensive,0.004925,,0.004925
+MLM,Basic Materials,-0.0258499999999999,,-0.0258499999999999
+MMC,Financial Services,-0.0129749999999999,,-0.0129749999999999
+MMM,Industrials,0.0023249999999999,,0.0023249999999999
+MNST,Consumer Defensive,-0.01185,,-0.01185
+MO,Consumer Defensive,-0.01135,,-0.01135
+MOH,Healthcare,0.012525,,0.012525
+MOS,Basic Materials,-0.0365,,-0.0365
+MPC,Energy,-0.028025,,-0.028025
+MPWR,Technology,-0.004725,,-0.004725
+MRK,Healthcare,-0.025425,,-0.025425
+MRNA,Healthcare,0.006575,,0.006575
+MRVL,Technology,,,
+MS,Financial Services,,,
+MSCI,Financial Services,-0.026325,,-0.026325
+MSFT,Technology,-0.0393,,-0.0393
+MSI,Technology,-0.015125,,-0.015125
+MSTR,Technology,,,
+MTB,Financial Services,-0.0006499999999999,,-0.0006499999999999
+MTCH,Communication Services,-0.030025,,-0.030025
+MTD,Healthcare,-0.023425,,-0.023425
+MU,Technology,-0.0668499999999999,,-0.0668499999999999
+NCLH,Consumer Cyclical,-0.0375,,-0.0375
+NDAQ,Financial Services,-0.01365,,-0.01365
+NDSN,Industrials,-0.01115,,-0.01115
+NEE,Utilities,-0.020075,,-0.020075
+NEM,Basic Materials,-0.04795,,-0.04795
+NFLX,Communication Services,-0.1762999999999999,,-0.1762999999999999
+NI,Utilities,-0.0243999999999999,,-0.0243999999999999
+NKE,Consumer Cyclical,-0.017825,,-0.017825
+NOC,Industrials,-0.009925,,-0.009925
+NOW,Technology,-0.0461749999999999,,-0.0461749999999999
+NRG,Utilities,-0.0597,,-0.0597
+NSC,Industrials,-0.020775,,-0.020775
+NTAP,Technology,-0.0189499999999999,,-0.0189499999999999
+NTRS,Financial Services,-0.023075,,-0.023075
+NUE,Basic Materials,-0.029225,,-0.029225
+NVDA,Technology,0.010275,,0.010275
+NVR,Consumer Cyclical,0.000525,,0.000525
+NWS,Communication Services,-0.012775,,-0.012775
+NWSA,Communication Services,-0.012775,,-0.012775
+NXPI,Technology,-0.01705,,-0.01705
+O,Real Estate,-0.0265,,-0.0265
+ODFL,Industrials,-0.046625,,-0.046625
+OKE,Energy,-0.01875,,-0.01875
+OMC,Communication Services,-0.00685,,-0.00685
+ON,Technology,-0.031225,,-0.031225
+ORCL,Technology,-0.03265,,-0.03265
+ORLY,Consumer Cyclical,-0.023925,,-0.023925
+OTIS,Industrials,-0.008575,,-0.008575
+OXY,Energy,-0.05925,,-0.05925
+PANW,Technology,-0.030875,,-0.030875
+PAYC,Technology,-0.018375,,-0.018375
+PAYX,Technology,-0.0190499999999999,,-0.0190499999999999
+PCAR,Industrials,-0.001125,,-0.001125
+PCG,Utilities,-0.0226,,-0.0226
+PDD,Consumer Cyclical,,,
+PEG,Utilities,-0.018175,,-0.018175
+PEP,Consumer Defensive,-0.022875,,-0.022875
+PFE,Healthcare,-0.026375,,-0.026375
+PFG,Financial Services,-0.0044,,-0.0044
+PG,Consumer Defensive,-0.0134,,-0.0134
+PGR,Financial Services,-0.0186,,-0.0186
+PH,Industrials,-0.0056749999999999,,-0.0056749999999999
+PHM,Consumer Cyclical,-0.0013499999999999,,-0.0013499999999999
+PKG,Consumer Cyclical,-0.04005,,-0.04005
+PLD,Real Estate,-0.013525,,-0.013525
+PLTR,Technology,-0.01145,,-0.01145
+PM,Consumer Defensive,-0.01045,,-0.01045
+PNC,Financial Services,-0.00145,,-0.00145
+PNR,Industrials,-0.01245,,-0.01245
+PNW,Utilities,-0.0426999999999999,,-0.0426999999999999
+PODD,Healthcare,-0.009375,,-0.009375
+POOL,Industrials,-0.010125,,-0.010125
+PPG,Basic Materials,-0.012475,,-0.012475
+PPL,Utilities,-0.0223,,-0.0223
+PRU,Financial Services,-0.0067,,-0.0067
+PSA,Real Estate,-0.043375,,-0.043375
+PSKY,Communication Services,0.0053,,0.0053
+PSX,Energy,-0.0207,,-0.0207
+PTC,Technology,-0.0180999999999999,,-0.0180999999999999
+PWR,Industrials,-0.0238,,-0.0238
+PYPL,Financial Services,0.01325,,0.01325
+QCOM,Technology,-0.006225,,-0.006225
+RCL,Consumer Cyclical,-0.031275,,-0.031275
+REG,Real Estate,-0.019325,,-0.019325
+REGN,Healthcare,-0.00845,,-0.00845
+RF,Financial Services,-0.00795,,-0.00795
+RJF,Financial Services,0.00185,,0.00185
+RL,Consumer Cyclical,-0.02805,,-0.02805
+RMD,Healthcare,-0.01595,,-0.01595
+ROK,Industrials,-0.024925,,-0.024925
+ROL,Consumer Cyclical,-0.030975,,-0.030975
+ROP,Technology,-0.020475,,-0.020475
+ROST,Consumer Cyclical,-0.0195,,-0.0195
+RSG,Industrials,-0.0269999999999999,,-0.0269999999999999
+RTX,Industrials,-0.0124,,-0.0124
+RVTY,Healthcare,-0.024725,,-0.024725
+SBAC,Real Estate,-0.018975,,-0.018975
+SBUX,Consumer Cyclical,-0.035475,,-0.035475
+SCHW,Financial Services,0.00505,,0.00505
+SHOP,Technology,,,
+SHW,Basic Materials,-0.016275,,-0.016275
+SJM,Consumer Defensive,-0.045025,,-0.045025
+SLB,Energy,-0.031,,-0.031
+SMCI,Technology,0.014025,,0.014025
+SNA,Industrials,-0.003825,,-0.003825
+SNPS,Technology,-0.02525,,-0.02525
+SO,Utilities,-0.023725,,-0.023725
+SOLS,Technology,,,
+SOLV,Healthcare,-0.024725,,-0.024725
+SPG,Real Estate,-0.03115,,-0.03115
+SPGI,Financial Services,-0.01235,,-0.01235
+SRE,Utilities,-0.017875,,-0.017875
+STE,Healthcare,-0.0411,,-0.0411
+STLD,Basic Materials,-0.0199,,-0.0199
+STT,Financial Services,-0.0253499999999999,,-0.0253499999999999
+STX,Technology,0.003925,,0.003925
+STZ,Consumer Defensive,-0.0762,,-0.0762
+SW,Consumer Cyclical,0.021625,,0.021625
+SWK,Industrials,-0.02495,,-0.02495
+SWKS,Technology,-0.052525,,-0.052525
+SYF,Financial Services,-0.000425,,-0.000425
+SYK,Healthcare,-0.01475,,-0.01475
+SYY,Consumer Defensive,-0.02555,,-0.02555
+T,Communication Services,-0.032525,,-0.032525
+TAP,Consumer Defensive,-0.014825,,-0.014825
+TDG,Industrials,-0.0079249999999999,,-0.0079249999999999
+TDY,Technology,-0.013925,,-0.013925
+TEAM,Technology,,,
+TECH,Healthcare,-0.029425,,-0.029425
+TEL,Technology,-0.0130999999999999,,-0.0130999999999999
+TER,Technology,-0.0286999999999999,,-0.0286999999999999
+TFC,Financial Services,-0.002375,,-0.002375
+TGT,Consumer Defensive,-0.0303249999999999,,-0.0303249999999999
+TJX,Consumer Cyclical,-0.026425,,-0.026425
+TKO,Communication Services,-0.026875,,-0.026875
+TMO,Healthcare,-0.010025,,-0.010025
+TMUS,Communication Services,-0.0353,,-0.0353
+TPL,Energy,-0.0143749999999999,,-0.0143749999999999
+TPR,Consumer Cyclical,-0.017775,,-0.017775
+TRGP,Energy,-0.037375,,-0.037375
+TRI,Industrials,,,
+TRMB,Technology,-0.0074749999999999,,-0.0074749999999999
+TROW,Financial Services,-0.022125,,-0.022125
+TRV,Financial Services,-0.04095,,-0.04095
+TSCO,Consumer Cyclical,-0.031875,,-0.031875
+TSLA,Consumer Cyclical,-0.0288,,-0.0288
+TSN,Consumer Defensive,-0.025875,,-0.025875
+TT,Industrials,-0.01305,,-0.01305
+TTD,Communication Services,-0.014875,,-0.014875
+TTWO,Communication Services,-0.1466,,-0.1466
+TXN,Technology,-0.019825,,-0.019825
+TXT,Industrials,-0.0138,,-0.0138
+TYL,Technology,-0.02095,,-0.02095
+UAL,Industrials,-0.0264249999999999,,-0.0264249999999999
+UBER,Technology,-0.0209999999999999,,-0.0209999999999999
+UDR,Real Estate,-0.0416,,-0.0416
+UHS,Healthcare,-0.030525,,-0.030525
+ULTA,Consumer Cyclical,-0.0233249999999999,,-0.0233249999999999
+UNH,Healthcare,-0.014625,,-0.014625
+UNP,Industrials,-0.0225749999999999,,-0.0225749999999999
+UPS,Industrials,-0.032675,,-0.032675
+URI,Industrials,-0.06295,,-0.06295
+USB,Financial Services,0.0028,,0.0028
+V,Financial Services,-0.0141,,-0.0141
+VICI,Real Estate,-0.0006999999999999,,-0.0006999999999999
+VLO,Energy,-0.030725,,-0.030725
+VLTO,Industrials,-0.008375,,-0.008375
+VMC,Basic Materials,-0.03745,,-0.03745
+VRSK,Industrials,-0.0481249999999999,,-0.0481249999999999
+VRSN,Technology,-0.02345,,-0.02345
+VRTX,Healthcare,-0.0025249999999999,,-0.0025249999999999
+VST,Utilities,-0.054825,,-0.054825
+VTR,Real Estate,-0.0305,,-0.0305
+VTRS,Healthcare,-0.0794499999999999,,-0.0794499999999999
+VZ,Communication Services,-0.030525,,-0.030525
+WAB,Industrials,-0.011125,,-0.011125
+WAT,Healthcare,-0.038,,-0.038
+WBD,Communication Services,-0.149725,,-0.149725
+WDAY,Technology,-0.0218,,-0.0218
+WDC,Technology,-0.01775,,-0.01775
+WEC,Utilities,-0.021075,,-0.021075
+WELL,Real Estate,-0.0218,,-0.0218
+WFC,Financial Services,,,
+WM,Industrials,-0.0447,,-0.0447
+WMB,Energy,-0.033375,,-0.033375
+WMT,Consumer Defensive,-0.031475,,-0.031475
+WRB,Financial Services,-0.00835,,-0.00835
+WSM,Consumer Cyclical,-0.019,,-0.019
+WST,Healthcare,-0.0254,,-0.0254
+WTW,Financial Services,-0.011175,,-0.011175
+WY,Real Estate,-0.019275,,-0.019275
+WYNN,Consumer Cyclical,-0.0339,,-0.0339
+XEL,Utilities,-0.032425,,-0.032425
+XOM,Energy,-0.030375,,-0.030375
+XYL,Industrials,-0.025575,,-0.025575
+XYZ,Technology,-0.03075,,-0.03075
+YUM,Consumer Cyclical,-0.024925,,-0.024925
+ZBH,Healthcare,-0.03285,,-0.03285
+ZBRA,Technology,-0.020125,,-0.020125
+ZS,Technology,,,
+ZTS,Healthcare,-0.027825,,-0.027825
